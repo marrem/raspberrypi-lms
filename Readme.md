@@ -10,12 +10,13 @@ Installable packages for a number of OS'ses are maintained by Logitech:
 
  * https://www.mysqueezebox.com/download
 
-Unfortunately the debian version doesn't run on Raspberry Pi despite containing arm
-perl XS stuff.
+Unfortunately the debian version offered in the main download page  doesn't run on my Raspberry Pi 3
 
-So downlaod a nightly build specifically built for ARM.
+So download a nightly build:
 
   $ wget -O logitechmediaserver_all.deb $(wget -q -O - "http://www.mysqueezebox.com/update/?version=7.9.0&revision=1&geturl=1&os=deb")
+
+See also: https://variax.wordpress.com/2017/02/24/install-lms-on-raspberry-pi/
 
 Install with dpkg
 
