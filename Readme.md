@@ -19,7 +19,7 @@ So downlaod a nightly build specifically built for ARM.
 
 Install with dpkg
 
-  # dpkg -i logitechmediaserver_all.deb
+  \# dpkg -i logitechmediaserver_all.deb
 
 ## Hardware and OS
 
